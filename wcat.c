@@ -1,3 +1,5 @@
+//ALL TESTS PASSED
+
 #include <stdio.h>
 #include <stdlib.h>
 void file_open(char *argv_value);
@@ -11,7 +13,6 @@ int main (int argc, char *argv[])
         file_open(argv[x]);
     }
     return 0;
-  
 }
 
 void file_open(char *argv_value){
@@ -25,7 +26,5 @@ void file_open(char *argv_value){
     while( fgets(buffer, 512, fp) != NULL){
         printf("%s", buffer);
     }
-
     fclose(fp);
-  
 }

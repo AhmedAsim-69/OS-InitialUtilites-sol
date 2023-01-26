@@ -1,9 +1,10 @@
+//ALL TESTS PASSED
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
 void wunzip_file(FILE *fr);
-
 
 int main (int argc, char *argv[])
 {   
